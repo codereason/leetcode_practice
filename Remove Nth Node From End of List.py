@@ -16,7 +16,9 @@ Try to do this in one pass.
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-
+'''
+一种方法是：从末尾删去第n个相当于从头删去第L-n+1个，此出不再赘述
+'''
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         """
